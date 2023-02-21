@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - main block
- * Description: Get a random alphabet and compare to z
+ * Description: Printing single digit using char
  * Return: 0
  */
 
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
+	for (ch = 48; ch < 58; ch++)
 		putchar(ch);
-	}
+
 	putchar('\n');
 	return (0);
 }
